@@ -1,0 +1,75 @@
+config:
+  backup: true
+  banner: true
+  create: true
+  dotpath: dotfiles
+  keepdot: false
+  link_dotfile_default: nolink
+  link_on_import: nolink
+  longkey: false
+dotfiles:
+  d_enhancd:
+    src: enhancd
+    dst: ~/.enhancd
+  d_config:
+    src: config
+    dst: ~/.config
+  d_tmux:
+    src: tmux
+    dst: ~/.tmux
+  d_tmuxinator:
+    src: tmuxinator
+    dst: ~/.tmuxinator
+  f_zshrc:
+    src: zshrc
+    dst: ~/.zshrc
+  d_enhancd_1:
+    src: enhancd
+    dst: ~/.enhancd
+  d_config_1:
+    src: config
+    dst: ~/.config
+  d_tmux_1:
+    src: tmux
+    dst: ~/.tmux
+  d_tmuxinator_1:
+    src: tmuxinator
+    dst: ~/.tmuxinator
+  f_zshrc_1:
+    src: zshrc
+    dst: ~/.zshrc
+  d_enhancd_2:
+    src: enhancd
+    dst: ~/.enhancd
+  d_enhancd_3:
+    src: enhancd
+    dst: ~/.enhancd
+  d_config_2:
+    src: config
+    dst: ~/.config
+  d_tmuxinator_2:
+    src: tmuxinator
+    dst: ~/.tmuxinator
+  f_zshrc_2:
+    src: zshrc
+    dst: ~/.zshrc
+profiles:
+  Martins-MacBook-Air.local:
+    dotfiles:
+    - d_enhancd
+    - d_config
+    - d_tmux
+    - d_tmuxinator
+    - f_zshrc
+    - d_enhancd_1
+    - d_config_1
+    - d_tmux_1
+    - d_tmuxinator_1
+    - f_zshrc_1
+    - d_enhancd_3
+    - d_config_2
+    - d_tmuxinator_2
+    - f_zshrc_2
+  clojure-dev:
+    dotfiles:
+    - d_enhancd_2
